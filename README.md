@@ -9,6 +9,14 @@
 3. Create a video of the app working with all of the additional features. Make the video small enough to render here or upload to a video service witha aviawable link.
 
 4. Choose two snapshots of code that demonstrate the algorithm(s) used to implement the additional features. Explain the code in the screenshots.
-
-
-
+![Size Change Function](https://github.com/Aero-ComSci/121-egballl/blob/f2c3bfe3a10b4e47c516c081f2775114468c5754/images/Screenshot_889.png)
+![Size List](https://github.com/Aero-ComSci/121-egballl/blob/f2c3bfe3a10b4e47c516c081f2775114468c5754/images/Screenshot_890.png)
+The ```change_size()``` function randomly changes the turtle's size each time it is clicked.
+ - It selects a new size from the predefined ```sizes``` list using ```rand.choice(sizes)```.
+ - The function then updates the turtle's size with ```game_turtle.shapesize(new_size)```.
+![Stamp Function](https://github.com/Aero-ComSci/121-egballl/blob/3d74a1a0674bba6cfe2404c8978cbd7238da27c4/images/Screenshot_891.png)
+![Color Lists](https://github.com/Aero-ComSci/121-egballl/blob/3d74a1a0674bba6cfe2404c8978cbd7238da27c4/images/Screenshot_892.png)
+The ```stamp()``` function adds colorful imprints on the screen each time the player clicks the turtle.
+ - It selects a random color from the predefined ```colors``` list using ```rand.choice(colors)```.
+ - Sets the turtle's color to the selected color, then using ```stamp()``` to leave an imprint at the current position.
+ - Then resets the turtle's color back to its original color ```spotcolor``` so that the main shape's color doesn't change permanently. 
