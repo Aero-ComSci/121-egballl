@@ -7,7 +7,9 @@
    ![image](https://github.com/user-attachments/assets/f99d7777-6fea-47e5-bf9a-fc452f835952)
 
 3. Create a video of the app working with all of the additional features. Make the video small enough to render here or upload to a video service witha aviawable link.
+### Video Link:
 [![Video Link](https://img.youtube.com/vi/AyzPn01PsyM/0.jpg)](https://www.youtube.com/watch?v=AyzPn01PsyM)
+
 4. Choose two snapshots of code that demonstrate the algorithm(s) used to implement the additional features. Explain the code in the screenshots.
 
 #### Size Function
